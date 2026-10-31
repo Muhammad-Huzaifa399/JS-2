@@ -86,31 +86,31 @@
 
 
 // q6
-// a
-var subject1 = prompt("subject1");
-var subject2 = prompt("subject2");
-var subject3 = prompt("subject3");
+// // a
+// var subject1 = prompt("subject1");
+// var subject2 = prompt("subject2");
+// var subject3 = prompt("subject3");
 
-// b
-var totalMarks = 100;
+// // b
+// var totalMarks = 100;
 
-// c
-var obtained1 = prompt("english obtained marks");
+// // c
+// var obtained1 = prompt("english obtained marks");
 
-// d
-var obtained2 = prompt("math obtained marks");
-var obtained3 = prompt("urdu obtained marks");
+// // d
+// var obtained2 = prompt("math obtained marks");
+// var obtained3 = prompt("urdu obtained marks");
 
-// e
-var percent1 = Number(obtained1) / totalMarks * 100;
-var percent2 = Number(obtained2) / totalMarks * 100;
-var percent3 = Number(obtained3) / totalMarks * 100;
+// // e
+// var percent1 = Number(obtained1) / totalMarks * 100;
+// var percent2 = Number(obtained2) / totalMarks * 100;
+// var percent3 = Number(obtained3) / totalMarks * 100;
 
-document.write("<h1> Subject Total Marks Obtained Marks Percentage </h1>");
-document.write(subject1 + "    " + totalMarks + "    " + obtained1 + "    " + percent1 + "%<br>" + subject2 + "    " + totalMarks + "    " + obtained2 + "    " + percent2 + "%<br>" + subject3 + "    " + totalMarks + "    " + obtained3 + "    " + percent3 + "%<br>")
+// document.write("<h1> Subject Total Marks Obtained Marks Percentage </h1>");
+// document.write(subject1 + "    " + totalMarks + "    " + obtained1 + "    " + percent1 + "%<br>" + subject2 + "    " + totalMarks + "    " + obtained2 + "    " + percent2 + "%<br>" + subject3 + "    " + totalMarks + "    " + obtained3 + "    " + percent3 + "%<br>")
 
-var totalMarks = totalMarks * 3;
-var obtainedMarks = +obtained1 + +obtained2 + +obtained3;
-var Percentage = obtainedMarks /totalMarks * 100;
-document.write(totalMarks + "    " + obtainedMarks + "    " + Percentage + "%");
+// var totalMarks = totalMarks * 3;
+// var obtainedMarks = +obtained1 + +obtained2 + +obtained3;
+// var Percentage = obtainedMarks /totalMarks * 100;
+// document.write(totalMarks + "    " + obtainedMarks + "    " + Percentage + "%");
 
